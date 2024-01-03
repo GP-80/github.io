@@ -107,11 +107,18 @@ footer {
 }
 @media screen and (max-width: 600px) {
     .header-image, .image-container img, .second-image-container img {
-        width: 80%; /* Larger percentage for smaller screens */
-	margin-bottom: 20px; /* Smaller margin for mobile devices */
+        width: 80%;
     }
+
     .nav-menu li a {
-        padding: 10px; /* Smaller padding for navigation links */
+        padding: 10px;
     }
-    /* Other adjustments for smaller screens */
+
+    /* Adjusting padding and margin for the second image container */
+    .second-image-container {
+        padding-top: 10px; /* Reduced padding on top */
+        padding-bottom: 10px; /* Reduced padding on bottom */
+        margin-bottom: 10px; /* Reduced margin on bottom */
+    }
 }
+
