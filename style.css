@@ -50,7 +50,7 @@ body {
     padding-top: 20px;
     padding-bottom: 0px;
     flex-grow: 1;
-	margin-bottom: 10 px;
+    margin-bottom: 10px;
 }
 
 .image-container img {
@@ -64,7 +64,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     flex-grow: 1;
-	margin-bottom: 40 px;
+    margin-bottom: 20 px;
 }
 
 .second-image-container img {
@@ -108,7 +108,7 @@ footer {
 @media screen and (max-width: 600px) {
     .header-image, .image-container img, .second-image-container img {
         width: 80%; /* Larger percentage for smaller screens */
-	 margin-bottom: 20px; /* Smaller margin for mobile devices */
+	margin-bottom: 20px; /* Smaller margin for mobile devices */
     }
     .nav-menu li a {
         padding: 10px; /* Smaller padding for navigation links */
