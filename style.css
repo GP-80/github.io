@@ -105,3 +105,12 @@ footer {
     margin-top: 10px; /* Adjust as needed */
 	font-size: 12px;
 }
+@media screen and (max-width: 600px) {
+    .header-image, .image-container img, .second-image-container img {
+        width: 80%; /* Larger percentage for smaller screens */
+    }
+    .nav-menu li a {
+        padding: 10px; /* Smaller padding for navigation links */
+    }
+    /* Other adjustments for smaller screens */
+}
