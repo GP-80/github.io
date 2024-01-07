@@ -119,6 +119,6 @@ footer {
         margin-bottom: 10px; /* Reduced margin on bottom */
     }
     #kofi-widget-container {
-        display: none;
+        display: none !important;
 }
 
