@@ -112,7 +112,6 @@ footer {
     .nav-menu li a {
         padding: 10px;
     }
-@media screen and (max-width: 600px) {
     #kofi-widget-container {
         position: absolute;
         bottom: 0;
@@ -120,7 +119,6 @@ footer {
         transform: translateX(-50%);
         width: 100%; /* Adjust as needed */
     }
-}
     /* Adjusting padding and margin for the second image container */
     .second-image-container {
         padding-top: 10px; /* Reduced padding on top */
